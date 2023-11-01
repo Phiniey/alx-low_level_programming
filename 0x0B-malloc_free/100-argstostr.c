@@ -15,6 +15,10 @@ char *argstostr(int ac, char **av)
 	int count = 0;
 	char *concatenated;
 
+	if (ac == 0 || av == NULL)
+	{
+		return (NULL);
+	}
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
