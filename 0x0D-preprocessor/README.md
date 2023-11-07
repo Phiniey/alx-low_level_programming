@@ -1,0 +1,1 @@
+This project is focused on understanding the C Preprocessor, an essential part of the C compilation process. Explaining the concept of macros, common predefined macros, and how to use include guards in header files.
